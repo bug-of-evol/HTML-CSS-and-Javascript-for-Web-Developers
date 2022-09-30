@@ -71,3 +71,19 @@
   background-color: #D2B48C;
 }
 
+.paragraph {
+  padding: 5px 15px 2px 15px;
+  clear: right;
+}
+
+.paragraph-sm {
+  padding: 5px 15px 2px 15px;
+  clear: right;
+}
+
+.para {
+  padding: 5px 15px 2px 15px;
+  clear: right;
+  display: none;
+}
+
