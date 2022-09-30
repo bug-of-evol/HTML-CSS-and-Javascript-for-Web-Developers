@@ -14,3 +14,36 @@
   top: 75px;
 }
 
+.containers__box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 125px;
+}
+
+.container {
+  border: 2px solid black;
+  margin-left: 20px;
+  background-color: gray;
+}
+
+.container-sm {
+  border: 2px solid black;
+  margin-left: 20px;
+  background-color: gray;
+}
+
+.container-lg {
+  border: 2px solid black;
+  margin-left: 20px;
+  background-color: gray;
+  display: none;
+}
+
+.container-mid {
+  border: 2px solid black;
+  margin-left: 20px;
+  background-color: gray;
+  display: none;
+}
+
