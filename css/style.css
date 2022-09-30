@@ -47,3 +47,14 @@
   display: none;
 }
 
+.title__box {
+  float: right;
+  border: 2px solid black;
+  width: 120px;
+  letter-spacing: 2px;
+  text-align: center;
+  background-color: beige;
+  font-family: sans-serif;
+  padding: 2px 0;
+}
+
