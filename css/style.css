@@ -4,3 +4,13 @@
   box-sizing: border-box;
 }
 
+/*----------------------------------------------------------------------------------------*/
+
+.main__title {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 75px;
+}
+
