@@ -123,3 +123,21 @@
   }
 }
 
+/*---------------------------------------------------------------------------------*/
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .containers__box {
+    display: inline-flex;
+    flex-direction: column;
+    left: 175px;
+  }
+  .container {
+    margin-bottom: 15px;
+  }
+  .main__title {
+    display: inline-block;
+    top: 100px;
+    margin-left: 310px;
+  }
+}
+
