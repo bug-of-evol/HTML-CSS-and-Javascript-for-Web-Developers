@@ -58,3 +58,16 @@
   padding: 2px 0;
 }
 
+.colored__title-1 {
+  background-color: #F08080;
+}
+
+.colored__title-2 {
+  background-color: #CD5C5C;
+  color: white;
+}
+
+.colored__title-3 {
+  background-color: #D2B48C;
+}
+
