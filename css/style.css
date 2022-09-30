@@ -87,3 +87,39 @@
   display: none;
 }
 
+/*-------------------------------------------------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container-sm {
+    display: none;
+  }
+  .container {
+    display: none;
+  }
+  .container-mid {
+    display: inline-block;
+    position: relative;
+    top: 115px;
+    left: 115px;
+    margin-right: -10px;
+  }
+  .para {
+    display: block;
+  }
+  .container-lg {
+    display: inline-block;
+    position: relative;
+    left: 115px;
+    top: 129px;
+  }
+  .paragraph-lg {
+    padding: 5px 15px 2px 15px;
+    clear: right;
+  }
+  .main__title {
+    display: inline-block;
+    margin-left: 370px;
+    margin-top: 25px;
+  }
+}
+
