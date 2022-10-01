@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+.main__title {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 75px;
+}
+
+.containers__box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 125px;
+}
+
+.container {
+  border: 2px solid black;
+  margin-left: 20px;
+  background-color: gray;
+}
+
+.container-sm {
+  border: 2px solid black;
+  margin-left: 20px;
+  background-color: gray;
+}
+
+.container-lg {
+  border: 2px solid black;
+  margin-left: 20px;
+  background-color: gray;
+  display: none;
+}
+
+.container-mid {
+  border: 2px solid black;
+  margin-left: 20px;
+  background-color: gray;
+  display: none;
+}
+
+.title__box {
+  float: right;
+  border: 2px solid black;
+  width: 120px;
+  letter-spacing: 2px;
+  text-align: center;
+  background-color: beige;
+  font-family: sans-serif;
+  padding: 2px 0;
+}
+
+.colored__title-1 {
+  background-color: #F08080;
+}
+
+.colored__title-2 {
+  background-color: #CD5C5C;
+  color: white;
+}
+
+.colored__title-3 {
+  background-color: #D2B48C;
+}
+
+.paragraph {
+  padding: 5px 15px 2px 15px;
+  clear: right;
+}
+
+.paragraph-sm {
+  padding: 5px 15px 2px 15px;
+  clear: right;
+}
+
+.para {
+  padding: 5px 15px 2px 15px;
+  clear: right;
+  display: none;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container-sm {
+    display: none;
+  }
+  .container {
+    display: none;
+  }
+  .container-mid {
+    display: inline-block;
+    position: relative;
+    top: 115px;
+    left: 115px;
+    margin-right: -10px;
+  }
+  .para {
+    display: block;
+  }
+  .container-lg {
+    display: inline-block;
+    position: relative;
+    left: 115px;
+    top: 129px;
+  }
+  .paragraph-lg {
+    padding: 5px 15px 2px 15px;
+    clear: right;
+  }
+  .main__title {
+    display: inline-block;
+    margin-left: 370px;
+    margin-top: 25px;
+  }
+}
+
+/*---------------------------------------------------------------------------------*/
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .containers__box {
+    display: inline-flex;
+    flex-direction: column;
+    left: 175px;
+  }
+  .container {
+    margin-bottom: 15px;
+  }
+  .main__title {
+    display: inline-block;
+    top: 100px;
+    margin-left: 310px;
+  }
+}
+
